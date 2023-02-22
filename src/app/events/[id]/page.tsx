@@ -25,10 +25,10 @@ const Page = ({ params }: { params: { id: string } }) => {
   const date = new Date(hit.Date);
 
   return (
-    <div className="text-black min-h-[300px] bg-[url('/hero.svg')] bg-contain bg-no-repeat bg-top pb-48 h-[calc(100vh-8rem)] overflow-auto">
+    <div className="text-black min-h-[300px] pb-48 mt-8">
       <div className="h-full md:mx-[10%] mx-4">
-        <div className="h-128 md:pl-24 md:pr-24 rounded-3xl bg-slate-800 bg-opacity-70 mt-16 mb-16 w-full">
-          <figure className="w-full relative aspect-video h-[50vh]">
+        <div className="h-128 md:pl-24 md:pr-24 rounded-3xl bg-slate-800 bg-opacity-70 w-full">
+          <figure className="w-full relative aspect-video h-[50vh] ">
             <Image
               src={hit.Image as string}
               alt={hit.Name as string}

@@ -18,7 +18,7 @@ export default function Home() {
         {/* Visible on mobile only */}
         <SideDrawer />
         <div></div>
-        <main className="flex-1 bg-white p-4 h-[calc(100vh-8rem)] overflow-auto">
+        <main className="flex-1  p-4">
           <Featured />
 
           <SearchList />

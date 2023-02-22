@@ -25,9 +25,11 @@ export default function RootLayout({
       <head />
       <body>
         <InstantSearch indexName="poc_events_app" searchClient={searchClient}>
-          <div className="flex flex-col min-h-screen bg-white">
+          <div className="flex flex-col min-h-screen bg-white h-screen">
             <Header />
-            {children}
+            <div className="flex-1 overflow-auto bg-[url('/hero.svg')] bg-contain bg-no-repeat bg-top">
+              {children}
+            </div>
             <Footer />
           </div>
         </InstantSearch>
