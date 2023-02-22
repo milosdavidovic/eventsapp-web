@@ -3,6 +3,17 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  basePath: "/events",
+  async redirects() {
+    return [
+      {
+        source: "/",
+        destination: "/events",
+        basePath: false,
+        permanent: false,
+      },
+    ];
+  },
   images: {
     remotePatterns: [
       {
