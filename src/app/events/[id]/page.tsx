@@ -26,7 +26,7 @@ const Page = ({ params }: { params: { id: string } }) => {
 
   return (
     <div className="text-black min-h-[300px] bg-[url('/hero.svg')] bg-contain bg-no-repeat bg-top pb-48 h-[calc(100vh-8rem)] overflow-auto">
-      <div className="h-full md:ml-[10%] md:mr-[10%] ">
+      <div className="h-full md:mx-[10%] mx-4">
         <div className="h-128 md:pl-24 md:pr-24 rounded-3xl bg-slate-800 bg-opacity-70 mt-16 mb-16 w-full">
           <figure className="w-full relative aspect-video h-[50vh]">
             <Image
@@ -82,7 +82,7 @@ const Page = ({ params }: { params: { id: string } }) => {
           </div>
         </div>
 
-        <div className="w-[50%] mb-8">
+        <div className="md:w-[50%] mb-8">
           <img src="/google-dummy.webp" alt="Full width image" width={"100%"} />
           <div className="text-xl mb-4 text-center">How to get there</div>
           <div className="flex justify-around gap-4 mt-4">
