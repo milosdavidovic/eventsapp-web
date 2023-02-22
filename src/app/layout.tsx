@@ -4,6 +4,7 @@ import algoliasearch from "algoliasearch/lite";
 import { InstantSearch } from "react-instantsearch-hooks-web";
 import Footer from "./Footer";
 import "./globals.css";
+
 import Header from "./Header";
 
 const searchClient = algoliasearch(
@@ -23,13 +24,12 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>
+      <body className="h-full">
         <InstantSearch indexName="poc_events_app" searchClient={searchClient}>
-          <div className="flex flex-col min-h-screen bg-white h-screen">
+          <div className="flex flex-col bg-white h-full">
             <Header />
-            <div className="flex-1 overflow-auto bg-[url('/hero.svg')] bg-contain bg-no-repeat bg-top">
-              {children}
-            </div>
+            <div className="my-16 z-10">{children}</div>
+            <div className="fixed top-16 w-full h-screen bg-[url('/hero.svg')] bg-contain bg-no-repeat bg-top"></div>
             <Footer />
           </div>
         </InstantSearch>

@@ -27,7 +27,7 @@ const Page = ({ params }: { params: { id: string } }) => {
   return (
     <div className="text-black min-h-[300px] pb-48 mt-8">
       <div className="h-full md:mx-[10%] mx-4">
-        <div className="h-128 md:pl-24 md:pr-24 rounded-3xl bg-slate-800 bg-opacity-70 w-full">
+        <div className="h-128 md:pl-24 md:pr-24 mb-12 rounded-3xl bg-slate-800 bg-opacity-70 w-full">
           <figure className="w-full relative aspect-video h-[50vh] ">
             <Image
               src={hit.Image as string}
@@ -38,7 +38,7 @@ const Page = ({ params }: { params: { id: string } }) => {
           </figure>
         </div>
 
-        <div className="flex justify-between text-xl mb-4">
+        <div className="flex justify-between text-xl">
           <div className="text-warning">{date.toDateString()}</div>
           <div className="flex items-center">
             <div className="badge badge-info bg-opacity-40 text-indigo-900 font-bold">

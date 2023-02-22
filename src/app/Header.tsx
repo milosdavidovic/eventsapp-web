@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="h-16 flex items-center justify-center text-white ">
+    <header className="h-16 w-full flex items-center justify-center text-white fixed top-0 z-20">
       <div className="navbar bg-gray-800 shadow-md shadow-slate-100 overflow-visible">
         <div className="navbar-start">
           <div className="dropdown">
