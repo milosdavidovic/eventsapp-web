@@ -101,7 +101,7 @@ const Page = ({ params }: { params: { id: string } }) => {
         </div>
 
         <div className="text-2xl mb-4">About this event</div>
-        <p className="w-[50%] mb-4">
+        <p className="md:w-[50%] mb-4">
           Bacon ipsum dolor amet laboris brisket eiusmod bresaola, sausage
           chicken ribeye incididunt cupidatat. Cupidatat qui jerky landjaeger,
           capicola sausage aute tail short loin jowl in cillum adipisicing. Anim
