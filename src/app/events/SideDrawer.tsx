@@ -10,10 +10,10 @@ const SideDrawer = () => {
 
   return (
     <div
-      className={`h-full z-10 lg:hidden absolute left-0 top-0 ${width} max-w-md bg-white overflow-hidden transition-all`}
+      className={`h-full z-10 lg:hidden fixed left-0 top-0 ${width} max-w-md bg-white overflow-hidden transition-all pt-16`}
     >
       <Sidebar />
-      <div className="absolute right-4 top-4">
+      <div className="absolute top-20 right-4">
         <button className="btn btn-circle btn-outline" onClick={toggleSidebar}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
