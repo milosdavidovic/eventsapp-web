@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Rock Concert",
+    "date": "2023-05-22T20:00:00+02:00",
+    "location": "Belgrade, Serbia",
+    "image": "https://images.unsplash.com/photo-1581106422679-4a0be7e39c31",
+    "description": "Experience the energy of the best rock bands in the world in the heart of Belgrade. Food, drinks, and merchandise will be available for purchase. Tickets are $25.",
+    "eventType": "Concert",
+    "activityType": "Music",
+    "cost": "Paid",
+    "buyTicketUrl": "http://www.google.com"
+  },
+  {
+    "name": "Business Seminar",
+    "date": "2023-09-15T09:00:00+02:00",
+    "location": "Novi Sad, Serbia",
+    "image": "https://images.unsplash.com/photo-1560253383-6cdd583fc5a5",
+    "description": "Learn from the best in the business world at this seminar in Novi Sad. Featuring keynote speakers, workshops, and networking opportunities, this event is a must-attend for entrepreneurs and professionals. Registration is $50.",
+    "eventType": "Seminar",
+    "activityType": "Business",
+    "cost": "Paid",
+    "buyTicketUrl": "http://www.google.com"
+  },
+  {
+    "name": "Art Festival",
+    "date": "2023-06-17T12:00:00+02:00",
+    "location": "Kragujevac, Serbia",
+    "image": "https://images.unsplash.com/photo-1541747301835-5a810fda9660",
+    "description": "Explore the diversity of contemporary art at this festival in Kragujevac. Featuring exhibitions, performances, and workshops by local and international artists, this event is a celebration of creativity. Admission is free.",
+    "eventType": "Festival",
+    "activityType": "Art",
+    "cost": "Free",
+    "buyTicketUrl": "http://www.google.com"
+  },
+  {
+    "name": "Car Rally",
+    "date": "2023-08-12T10:00:00+02:00",
+    "location": "Novi Pazar, Serbia",
+    "image": "https://images.unsplash.com/photo-1546800753-3f84e6f75d4d",
+    "description": "Watch the most powerful cars in action as they race through the stunning landscapes of Novi Pazar. This rally is a thrilling experience for car enthusiasts and adrenaline junkies alike. Admission is free.",
+    "eventType": "Rally",
+    "activityType": "Sports",
+    "cost": "Free",
+    "buyTicketUrl": "http://www.google.com"
+  },
+  {
+    "name": "Serbian Music Festival",
+    "date": "2023-06-02T19:30:00+02:00",
+    "location": "Belgrade",
+    "image": "https://www.visitserbia.org/wp-content/uploads/2020/07/Belgrade1.jpg",
+    "description": "Come and enjoy the best of Serbian music at our annual festival featuring local artists and performers.",
+    "eventType": "Festival",
+    "activityType": "Music",
+    "cost": "Paid",
+    "buyTicketUrl": "https://www.google.com"
+  },
+  {
+    "name": "Business Networking Seminar",
+    "date": "2023-03-10T14:00:00+01:00",
+    "location": "Novi Sad",
+    "image": "https://www.blic.rs/sport/fudbal/duh-vojvodine-u-novom-sadu/p4mkvv4",
+    "description": "Join us for an afternoon of networking and professional development with top business leaders and experts.",
+    "eventType": "Seminar",
+    "activityType": "Business",
+    "cost": "Paid",
+    "buyTicketUrl": "https://www.google.com"
+  },
+  {
+    "name": "International Food Festival",
+    "date": "2023-09-16T12:00:00+02:00",
+    "location": "Niš",
+    "image": "https://www.vesti.rs/foto/63529_nis_1.jpg",
+    "description": "Discover a world of flavors at our food festival featuring cuisine from around the globe.",
+    "eventType": "Festival",
+    "activityType": "Food&Drink",
+    "cost": "Free",
+    "buyTicketUrl": "https://www.google.com"
+  },
+  {
+    "name": "Art Exhibition",
+    "date": "2023-05-20T10:00:00+02:00",
+    "location": "Subotica",
+    "image": "https://www.seebtm.com/wp-content/uploads/2019/10/Subotica1.jpg",
+    "description": "Experience the beauty and creativity of local artists at our art exhibition showcasing a variety of styles and mediums.",
+    "eventType": "Exhibition",
+    "activityType": "Art",
+    "cost": "Free",
+    "buyTicketUrl": "https://www.google.com"
+  },
+  {
+    "name": "Serbian National Basketball Tournament",
+    "date": "2023-04-08T17:00:00+02:00",
+    "location": "Kragujevac",
+    "image": "https://www.srbijadanas.com/sites/default/files/styles/full_article_image/public/2018-05/73018263.jpg?itok=h-Nmt7Cc",
+    "description": "Cheer on your favorite teams and players at the biggest basketball tournament in Serbia featuring top talent from across the country.",
+    "eventType": "Tournament",
+    "activityType": "Sport",
+    "cost": "Paid",
+    "buyTicketUrl": "https://www.google.com"
+  },
+  {
+    "name": "Serbian Business Summit",
+    "date": "2023-06-15T10:30:00+02:00",
+    "location": "Kragujevac",
+    "image": "https://www.visitserbia.org/wp-content/uploads/2019/10/serbia-mountain-range-m.jpg",
+    "description": "A gathering of business professionals and entrepreneurs to discuss the latest trends and developments in the Serbian business landscape.",
+    "eventType": "Seminar",
+    "activityType": "Business",
+    "cost": "Paid",
+    "buyTicketUrl": "https://www.google.com"
+  },
+
+  {
+    "name": "Belgrade Jazz Festival",
+    "date": "2023-10-01T19:00:00+02:00",
+    "location": "Belgrade",
+    "image": "https://www.belgradejazzfestival.com/wp-content/uploads/2019/05/header-2.jpg",
+    "description": "A celebration of jazz music with performances by local and international musicians.",
+    "eventType": "Festival",
+    "activityType": "Music",
+    "cost": "Paid",
+    "buyTicketUrl": "https://www.google.com"
+  },
+
+  {
+    "name": "Novi Sad Film Festival",
+    "date": "2023-08-25T18:00:00+02:00",
+    "location": "Novi Sad",
+    "image": "https://www.filmskisusreti.com/wp-content/uploads/2021/01/nsfilmfestival-header.jpg",
+    "description": "A showcase of the best in contemporary cinema from around the world.",
+    "eventType": "Festival",
+    "activityType": "Art",
+    "cost": "Paid",
+    "buyTicketUrl": "https://www.google.com"
+  },
+
+  {
+    "name": "Serbian Food & Wine Festival",
+    "date": "2023-05-13T13:00:00+02:00",
+    "location": "Subotica",
+    "image": "https://www.serbia.com/wp-content/uploads/2019/03/Serbian-Food-and-Wine-Festival.jpg",
+    "description": "An opportunity to sample some of the best food and wine that Serbia has to offer.",
+    "eventType": "Festival",
+    "activityType": "Food&Drink",
+    "cost": "Paid",
+    "buyTicketUrl": "https://www.google.com"
+  },
+  {
+    "name": "Belgrade Fashion Week",
+    "date": "2023-11-07T16:00:00+02:00",
+    "location": "Belgrade",
+    "image": "https://www.belgradefashionweek.com/images/2021/bfw25/bfw25-tamara-stojanovic.png",
+    "description": "A showcase of the latest trends and designs in the world of fashion.",
+    "eventType": "Tour",
+    "activityType": "Art",
+    "cost": "Paid",
+    "buyTicketUrl": "https://www.google.com"
+  },
+  {
+    "name": "Autumn Music Festival",
+    "date": "2023-10-14T16:00:00+02:00",
+    "location": "Belgrade",
+    "image": "https://images.pexels.com/photos/1156718/pexels-photo-1156718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "description": "A celebration of the season with live music performances from local artists.",
+    "eventType": "Festival",
+    "activityType": "Music",
+    "cost": "Paid",
+    "buyTicketUrl": "https://www.google.com"
+  },
+  {
+    "name": "Business Networking Lunch",
+    "date": "2023-06-28T12:00:00+02:00",
+    "location": "Novi Beograd",
+    "image": "https://images.pexels.com/photos/3182820/pexels-photo-3182820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "description": "An opportunity for entrepreneurs and business professionals to connect and share ideas over a meal.",
+    "eventType": "Networking",
+    "activityType": "Business",
+    "cost": "Paid",
+    "buyTicketUrl": "https://www.google.com"
+  },
+  {
+    "name": "Art Exhibition Opening",
+    "date": "2023-07-16T19:00:00+02:00",
+    "location": "Kragujevac",
+    "image": "https://images.pexels.com/photos/1291615/pexels-photo-1291615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "description": "A showcase of new works by local artists, featuring paintings, sculptures, and mixed media pieces.",
+    "eventType": "Exhibition",
+    "activityType": "Art",
+    "cost": "Free",
+    "buyTicketUrl": "https://www.google.com"
+  },
+  {
+    "name": "Technology Conference",
+    "date": "2023-11-09T10:00:00+02:00",
+    "location": "Subotica",
+    "image": "https://images.pexels.com/photos/355952/pexels-photo-355952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "description": "A gathering of tech enthusiasts, featuring keynote speakers and breakout sessions covering the latest trends and innovations.",
+    "eventType": "Conference",
+    "activityType": "Tech",
+    "cost": "Paid",
+    "buyTicketUrl": "https://www.google.com"
+  },
+  {
+    "name": "Serbian National Football Match",
+    "date": "2023-09-03T19:45:00+02:00",
+    "location": "Stadion Rajko Mitić, Beograd",
+    "image": "https://images.pexels.com/photos/3756997/pexels-photo-3756997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "description": "Cheer on the Serbian national team as they take on a rival squad in this exciting football match.",
+    "eventType": "Match",
+    "activityType": "Sports",
+    "cost": "Paid",
+    "buyTicketUrl": "https://www.google.com"
+  }
+]
