@@ -25,7 +25,7 @@ const Page = ({ params }: { params: { id: string } }) => {
   const date = new Date(hit.Date);
 
   return (
-    <div className="text-black min-h-[300px] bg-[url('/hero.svg')] bg-contain bg-no-repeat bg-top pb-48 ">
+    <div className="text-black min-h-[300px] bg-[url('/hero.svg')] bg-contain bg-no-repeat bg-top pb-48 h-[calc(100vh-8rem)] overflow-auto">
       <div className="h-full md:mx-[10%] mx-4">
         <div className="h-128 md:pl-24 md:pr-24 rounded-3xl bg-slate-800 bg-opacity-70 mt-16 mb-16 w-full">
           <figure className="w-full relative aspect-video h-[50vh]">
@@ -53,7 +53,7 @@ const Page = ({ params }: { params: { id: string } }) => {
           </div>
         </div>
 
-        <h1 className="text-5xl font-bold mb-8">{hit.Name}</h1>
+        <h1 className="text-4xl mb:text-5xl font-bold mb-8">{hit.Name}</h1>
 
         <p className="text-xl mb-4">{hit.Description}</p>
 
@@ -113,7 +113,7 @@ const Page = ({ params }: { params: { id: string } }) => {
         <p className="text-md font-bold mb-2">Agenda</p>
         <p>18:30 - 19:00 - Registration</p>
         <p>19:00 - 20:00 - Main thing</p>
-        <p>20:00 - 23:00 - Networking</p>
+        <p className="pb-8">20:00 - 23:00 - Networking</p>
       </div>
     </div>
   );
