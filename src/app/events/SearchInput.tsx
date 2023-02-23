@@ -17,7 +17,7 @@ const CustomInput = () => {
           placeholder="Search…"
           onChange={handleInputChange}
           value={query}
-          className="input input-bordered w-full bg-slate-100 text-neutral input-warning"
+          className="input input-bordered w-full bg-[#EDF1FC] text-neutral input-warning"
         />
         <button className="btn btn-square">
           <svg

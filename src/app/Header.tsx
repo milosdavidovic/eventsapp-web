@@ -28,7 +28,7 @@ const Header = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Home</a>
+                <Link href={"/"}>Home</Link>
               </li>
               <li>
                 <a>Search</a>
@@ -43,7 +43,7 @@ const Header = () => {
               href={"/events"}
               className="btn btn-ghost normal-case text-md md:text-xl text-warning"
             >
-              Events App
+              Events Buzz
             </Link>
           </div>
         </div>

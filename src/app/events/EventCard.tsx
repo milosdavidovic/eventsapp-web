@@ -3,7 +3,6 @@ import Link from "next/link";
 import React from "react";
 
 const EventCard = ({ hit }: any) => {
-  console.log(hit);
   return (
     <Link
       href={`/events/${hit.objectID}`}
